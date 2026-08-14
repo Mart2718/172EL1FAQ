@@ -1,0 +1,220 @@
+{
+  "section": "EL1",
+  "title": "Introduction to Exponential Functions",
+  "learningObjective": "Determine if a given function is exponential. Find an equation of an exponential function. Evaluate exponential functions (including base e).",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is an exponential function, and what do a and b represent in f(x) = ab^x?",
+      "answer": "An exponential function has the input x sitting in the exponent, rather than being multiplied or added like in the functions you've seen so far. In f(x) = ab^x, a is the initial value — the output when x = 0 — and b is the base, which controls how fast the function grows or shrinks with each step.<div class=\"example-box\"><div class=\"label\">Example</div><p class=\"math-line\">\\( f(x) = 5(3)^x \\)</p><p class=\"math-line\">Initial value: \\( a=5 \\) &nbsp;&nbsp; Base: \\( b=3 \\)</p></div>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What's the difference between a linear function and an exponential function?",
+      "answer": "A linear function changes by adding the same amount every time x increases by 1 — a constant DIFFERENCE. An exponential function changes by multiplying by the same amount every time x increases by 1 — a constant RATIO. This is the single biggest distinction between the two function families, and it's the key test for telling them apart from a table of values.<div class=\"example-box\"><div class=\"label\">Side by Side</div><p class=\"math-line\">Linear: 3, 7, 11, 15, ... (add 4 each time)</p><p class=\"math-line\">Exponential: 3, 6, 12, 24, ... (multiply by 2 each time)</p></div>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What does it mean for an exponential function to represent growth versus decay?",
+      "answer": "Growth means the output keeps getting larger as x increases; decay means the output keeps getting smaller, approaching (but never quite reaching) zero. Whether a function grows or decays depends entirely on its base b.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"190\" x2=\"320\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"200\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"50.0,187.8 62.6,187.2 75.3,186.5 87.9,185.7 100.5,184.6 113.2,183.3 125.8,181.6 138.4,179.6 151.1,177.0 163.7,173.9 176.3,169.9 188.9,165.0 201.6,158.9 214.2,151.3 226.8,141.8 239.5,130.0 252.1,115.3 264.7,97.1 277.4,74.3 290.0,46.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><polyline points=\"50.0,46.0 62.6,74.3 75.3,97.1 87.9,115.3 100.5,130.0 113.2,141.8 125.8,151.3 138.4,158.9 151.1,165.0 163.7,169.9 176.3,173.9 188.9,177.0 201.6,179.6 214.2,181.6 226.8,183.3 239.5,184.6 252.1,185.7 264.7,186.5 277.4,187.2 290.0,187.8\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"3\"/><text x=\"240\" y=\"55\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">growth (b&gt;1)</text><text x=\"55\" y=\"55\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">decay (0&lt;b&lt;1)</text></svg></div><p class=\"graph-caption\">Same starting point, opposite behavior — growth rises without bound, decay flattens toward zero.</p>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What is the number e, and why does it show up in exponential functions?",
+      "answer": "The number e is a special irrational constant, approximately 2.718282, that shows up naturally when working with exponential functions — similar to how π shows up naturally in circles. You'll find it on any scientific or graphing calculator. Exponential functions with base e (written as ae^x) are extremely common in science, finance, and later coursework, so it's worth getting comfortable evaluating them now, even before you've seen exactly why e arises the way it does."
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "Why can't b be negative, zero, or equal to 1 in an exponential function?",
+      "answer": "Each restriction avoids the function breaking down. If b were negative, raising it to fractional powers (like x = 1/2, a square root) would produce non-real results for many inputs, making the function undefined in places. If b were 0, the function would just be 0 everywhere except possibly x = 0 — not very useful. If b were exactly 1, every output would equal a no matter what x is — a constant function, not an exponential one. Requiring b to be positive and not equal to 1 is what guarantees you actually get a smooth, everywhere-defined growth or decay curve."
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I determine if a table of values represents an exponential function?",
+      "answer": "Check whether consecutive outputs share a constant ratio — divide each output by the one before it. If you get the same number every time, the table is exponential. If instead the differences (not ratios) between consecutive outputs are constant, the table is linear instead.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Table: (0, 5), (1, 10), (2, 20), (3, 40)</p><p class=\"math-line\">Check ratios: \\( 10/5=2 \\), \\( 20/10=2 \\), \\( 40/20=2 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Constant ratio of 2 — this table is exponential.</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I find the common ratio from a table of values?",
+      "answer": "Divide any output by the output immediately before it (make sure the x-values are consecutive, one apart). This value — the common ratio — is exactly the base b of the exponential function.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Table: (0, 3), (1, 6), (2, 12)</p><p class=\"math-line\">Common ratio: \\( \\dfrac{6}{3}=2 \\) (check: \\( \\dfrac{12}{6}=2 \\) too)</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I find the equation of an exponential function given two points?",
+      "answer": "If one of your points has x = 0, that output IS your initial value a — read it directly. Then find b by dividing the two given outputs, adjusting for however many x-steps apart they are.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find an equation through \\( (0,4) \\) and \\( (1,6) \\).</p><p class=\"math-line\">Since \\( x=0 \\) gives \\( y=4 \\): \\( a=4 \\)</p><p class=\"math-line\">Common ratio: \\( \\dfrac{6}{4}=\\dfrac{3}{2} \\), so \\( b=\\dfrac{3}{2} \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">\\( f(x) = 4\\left(\\dfrac{3}{2}\\right)^x \\)</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I evaluate an exponential function at a given input, including negative inputs?",
+      "answer": "Substitute the input for x and simplify, exactly like evaluating any other function. A negative input just means a negative exponent — remember that a negative exponent means \"take the reciprocal,\" not \"make the answer negative.\"<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = 4^x \\). Find \\( f(-2) \\).</p><p class=\"math-line\">\\( f(-2) = 4^{-2} = \\dfrac{1}{4^2} = \\dfrac{1}{16} \\)</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I evaluate an exponential function involving the base e?",
+      "answer": "Use the e button on a scientific or graphing calculator (often labeled e^x or accessed via a SHIFT/2nd function) — substitute your input, then let the calculator compute the decimal approximation, since e itself is irrational and doesn't simplify to a clean fraction.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = -2e^{x}-2 \\). Find \\( f(-2) \\).</p><p class=\"math-line\">\\( f(-2) = -2e^{-2}-2 \\approx -2(0.1353)-2 \\approx -2.27 \\)</p></div>"
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "How do I tell whether an exponential function represents growth or decay just by looking at its equation?",
+      "answer": "Check the value of b. If b > 1, the function is growing. If 0 < b < 1 (a fraction between zero and one), the function is decaying. This is a direct read from the equation — no calculation needed, no need to plug in numbers or graph anything first."
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "Why does a negative exponent not mean a negative output?",
+      "answer": "A negative exponent is an instruction to take the reciprocal, not to flip the sign of the result. Since the base b in an exponential function is always positive, any power of it — positive exponent, negative exponent, whatever — stays positive too. Negative x-values shrink the output toward zero (for growth functions) rather than making the output itself go negative.<div class=\"example-box\"><div class=\"label\">Example</div><p class=\"math-line\">\\( 2^{-3} = \\dfrac{1}{2^3} = \\dfrac{1}{8} \\) — small and positive, never negative.</p></div>"
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "How does the constant-ratio idea here connect to the constant-rate-of-change idea from LF1?",
+      "answer": "They're a matched pair, describing two completely different kinds of \"steady\" change. LF1 taught you that a linear function has a constant ADDITIVE rate of change — the same amount gets added every step. This section teaches the exponential counterpart: a constant MULTIPLICATIVE rate of change — the same factor gets multiplied every step. Recognizing which kind of \"constant\" a table shows you (constant difference vs. constant ratio) is exactly how you tell whether you're looking at a linear or an exponential situation."
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "Why do exponential functions matter beyond the math classroom?",
+      "answer": "Exponential functions model an enormous range of real situations: compound interest and investment growth, population growth, radioactive decay, the spread of a virus, and the cooling of a hot object are all classic exponential examples. Recognizing exponential behavior — and knowing the difference between exponential and linear change — is a genuinely practical skill for reading news about growth rates, understanding your own finances, and interpreting data in any science course."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Determine if a Table Represents a Linear or Exponential Function (Ex 1)",
+      "url": "https://www.youtube.com/watch?v=IwhZS4mS7Nw",
+      "description": "Checking differences vs. ratios to determine whether a table of values is linear or exponential.",
+      "category": "identifying-exponential",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-6"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Determine if a Table Represents a Linear or Exponential Function (Fractions/Decimals)",
+      "url": "https://www.youtube.com/watch?v=3rAysgYCGS4",
+      "description": "A second worked example, including tables with fractional or decimal common ratios.",
+      "category": "identifying-exponential",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Determine if a Table Represents a Linear or Exponential Function",
+      "url": "https://www.youtube.com/watch?v=x36yjjdtGjM",
+      "description": "Another worked example distinguishing linear from exponential tables of values.",
+      "category": "identifying-exponential",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-13"
+      ]
+    },
+    {
+      "id": "vid-4",
+      "title": "Determine Exponential Function Values and Graph the Function",
+      "url": "https://youtu.be/QFFAoX0We34",
+      "description": "Evaluating an exponential function at given inputs and using those values to graph it.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-9"
+      ]
+    },
+    {
+      "id": "vid-5",
+      "title": "Evaluate a Given Exponential Function to Predict a Future Population",
+      "url": "https://youtu.be/SbIydBmJePE",
+      "description": "A real-world application evaluating an exponential growth model to make a future prediction.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-9",
+        "faq-14"
+      ]
+    },
+    {
+      "id": "vid-6",
+      "title": "Determine a Continuous Exponential Decay Function and Make a Prediction",
+      "url": "https://youtu.be/Vyl3NcTGRAo",
+      "description": "Building and evaluating an exponential decay function, including base e, in a real-world context.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-10",
+        "faq-11",
+        "faq-14"
+      ]
+    },
+    {
+      "id": "vid-7",
+      "title": "Exponential Model: Determine Age Using Carbon-14 and Half-Life",
+      "url": "https://www.youtube.com/watch?v=HYHzK6kF0ts",
+      "description": "A classic exponential decay application — using a half-life model to estimate age.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-14"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Exponential Detective",
+      "url": "https://exponentialdetective.netlify.app/",
+      "description": "Two-mode practice tool: Classify It sorts tables of values into Linear, Exponential, or Neither by checking differences vs. ratios; Build It walks through finding a and b from two points to construct the equation step by step. Includes a Class Mode for projector-driven discussion.",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-6",
+        "faq-7",
+        "faq-8"
+      ]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Practice Identifying Exponential Tables",
+        "prompt": "I'm learning to tell linear and exponential tables apart. Give me a table of values and ask me to check both the differences and the ratios to determine which type of function it represents (or neither). Then give me a few more tables of increasing difficulty, including at least one with fractional ratios, and check my work."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Understand Growth vs. Decay",
+        "prompt": "I'm learning about exponential growth and decay. Give me a few different exponential equations with different base values, and ask me to predict whether each represents growth or decay before I calculate anything. Then check my reasoning and help me understand any I got wrong."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Practice Finding an Equation from Two Points",
+        "prompt": "I'm learning to find the equation of an exponential function from two points. Give me two points where one has x=0, and walk me through finding a and b. Then give me two points where NEITHER has x=0, which is trickier, and help me work through that case too."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Practice Evaluating Exponential Functions",
+        "prompt": "I'm practicing evaluating exponential functions, including negative inputs and base e. Give me a function and a few input values to evaluate, including at least one negative input and one that requires a calculator (base e). Check my work and make sure I understand why a negative exponent doesn't create a negative output."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Exponential Ratios to Linear Rates of Change",
+        "prompt": "I've learned that linear functions have a constant additive rate of change and exponential functions have a constant multiplicative rate of change (ratio). Can you help me see this connection more clearly with a side-by-side example — the same starting value, one growing linearly and one growing exponentially — and show me how differently they behave over time?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section EL1 (Introduction to Exponential Functions). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
