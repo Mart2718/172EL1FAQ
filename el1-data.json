@@ -216,5 +216,242 @@
         "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section EL1 (Introduction to Exponential Functions). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
       }
     ]
-  }
+  },
+  "paths": [
+    {
+      "id": "EL1",
+      "label": "EL1: Introduction to Exponential Functions",
+      "sectionLabel": "EL1, Introduction to Exponential Functions",
+      "intro": "Builds to the EL1 check: telling whether a table is exponential, evaluating exponential functions, and finding an exponential equation from two points.",
+      "graphs": {
+        "TP1": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(6\\)</td></tr><tr><td>\\(2\\)</td><td>\\(12\\)</td></tr><tr><td>\\(3\\)</td><td>\\(24\\)</td></tr><tr><td>\\(4\\)</td><td>\\(48\\)</td></tr><tr><td>\\(5\\)</td><td>\\(96\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(4\\)</td></tr><tr><td>\\(2\\)</td><td>\\(3\\)</td></tr><tr><td>\\(3\\)</td><td>\\(0\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-5\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-12\\)</td></tr></table></figure></div>",
+        "TP2": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(1\\)</td></tr><tr><td>\\(2\\)</td><td>\\(\\dfrac{2}{3}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(\\dfrac{1}{2}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(\\dfrac{2}{5}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(\\dfrac{1}{3}\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(-\\dfrac{2}{3}\\)</td></tr><tr><td>\\(2\\)</td><td>\\(-\\dfrac{2}{9}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(-\\dfrac{2}{27}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-\\dfrac{2}{81}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-\\dfrac{2}{243}\\)</td></tr></table></figure></div>",
+        "TP3": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(5\\)</td></tr><tr><td>\\(2\\)</td><td>\\(8\\)</td></tr><tr><td>\\(3\\)</td><td>\\(11\\)</td></tr><tr><td>\\(4\\)</td><td>\\(14\\)</td></tr><tr><td>\\(5\\)</td><td>\\(17\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(-6\\)</td></tr><tr><td>\\(2\\)</td><td>\\(-18\\)</td></tr><tr><td>\\(3\\)</td><td>\\(-54\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-162\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-486\\)</td></tr></table></figure></div>",
+        "TP4": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(2\\)</td></tr><tr><td>\\(2\\)</td><td>\\(1\\)</td></tr><tr><td>\\(3\\)</td><td>\\(\\dfrac{1}{2}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(\\dfrac{1}{4}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(\\dfrac{1}{8}\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th></tr><tr><td>\\(1\\)</td><td>\\(-2\\)</td></tr><tr><td>\\(2\\)</td><td>\\(0\\)</td></tr><tr><td>\\(3\\)</td><td>\\(4\\)</td></tr><tr><td>\\(4\\)</td><td>\\(10\\)</td></tr><tr><td>\\(5\\)</td><td>\\(18\\)</td></tr></table></figure></div>",
+        "RA1": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A: constant ratio → exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(6\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(12\\)</td><td>\\(\\times\\, 2\\)</td></tr><tr><td>\\(3\\)</td><td>\\(24\\)</td><td>\\(\\times\\, 2\\)</td></tr><tr><td>\\(4\\)</td><td>\\(48\\)</td><td>\\(\\times\\, 2\\)</td></tr><tr><td>\\(5\\)</td><td>\\(96\\)</td><td>\\(\\times\\, 2\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B: ratios change → not exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(4\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(3\\)</td><td>\\(\\times\\, \\tfrac{3}{4}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(0\\)</td><td>\\(\\times\\, 0\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-5\\)</td><td>undefined (÷ 0)</td></tr><tr><td>\\(5\\)</td><td>\\(-12\\)</td><td>\\(\\times\\, \\tfrac{12}{5}\\)</td></tr></table></figure></div>",
+        "RA2": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A: ratios change → not exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(1\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(\\dfrac{2}{3}\\)</td><td>\\(\\times\\, \\tfrac{2}{3}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(\\dfrac{1}{2}\\)</td><td>\\(\\times\\, \\tfrac{3}{4}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(\\dfrac{2}{5}\\)</td><td>\\(\\times\\, \\tfrac{4}{5}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(\\dfrac{1}{3}\\)</td><td>\\(\\times\\, \\tfrac{5}{6}\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B: constant ratio → exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(-\\dfrac{2}{3}\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(-\\dfrac{2}{9}\\)</td><td>\\(\\times\\, \\tfrac{1}{3}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(-\\dfrac{2}{27}\\)</td><td>\\(\\times\\, \\tfrac{1}{3}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-\\dfrac{2}{81}\\)</td><td>\\(\\times\\, \\tfrac{1}{3}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-\\dfrac{2}{243}\\)</td><td>\\(\\times\\, \\tfrac{1}{3}\\)</td></tr></table></figure></div>",
+        "RA3": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A: ratios change → not exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(5\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(8\\)</td><td>\\(\\times\\, \\tfrac{8}{5}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(11\\)</td><td>\\(\\times\\, \\tfrac{11}{8}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(14\\)</td><td>\\(\\times\\, \\tfrac{14}{11}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(17\\)</td><td>\\(\\times\\, \\tfrac{17}{14}\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B: constant ratio → exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(-6\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(-18\\)</td><td>\\(\\times\\, 3\\)</td></tr><tr><td>\\(3\\)</td><td>\\(-54\\)</td><td>\\(\\times\\, 3\\)</td></tr><tr><td>\\(4\\)</td><td>\\(-162\\)</td><td>\\(\\times\\, 3\\)</td></tr><tr><td>\\(5\\)</td><td>\\(-486\\)</td><td>\\(\\times\\, 3\\)</td></tr></table></figure></div>",
+        "RA4": "<div class=\"graph-row\"><figure class=\"graph-fig\"><figcaption>Table A: constant ratio → exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(2\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(1\\)</td><td>\\(\\times\\, \\tfrac{1}{2}\\)</td></tr><tr><td>\\(3\\)</td><td>\\(\\dfrac{1}{2}\\)</td><td>\\(\\times\\, \\tfrac{1}{2}\\)</td></tr><tr><td>\\(4\\)</td><td>\\(\\dfrac{1}{4}\\)</td><td>\\(\\times\\, \\tfrac{1}{2}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(\\dfrac{1}{8}\\)</td><td>\\(\\times\\, \\tfrac{1}{2}\\)</td></tr></table></figure><figure class=\"graph-fig\"><figcaption>Table B: ratios change → not exponential</figcaption><table class=\"lookup\"><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">\\(y\\)</th><th scope=\"col\">multiply previous \\(y\\) by</th></tr><tr><td>\\(1\\)</td><td>\\(-2\\)</td><td>—</td></tr><tr><td>\\(2\\)</td><td>\\(0\\)</td><td>\\(\\times\\, 0\\)</td></tr><tr><td>\\(3\\)</td><td>\\(4\\)</td><td>undefined (÷ 0)</td></tr><tr><td>\\(4\\)</td><td>\\(10\\)</td><td>\\(\\times\\, \\tfrac{5}{2}\\)</td></tr><tr><td>\\(5\\)</td><td>\\(18\\)</td><td>\\(\\times\\, \\tfrac{9}{5}\\)</td></tr></table></figure></div>"
+      },
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Two quick skills EL1 leans on. Skip any you already have.",
+          "stops": [
+            {
+              "id": "el1-g1",
+              "title": "Negative and zero exponents",
+              "target": "Evaluate powers with negative or zero exponents: \\(b^{-n} = \\dfrac{1}{b^n}\\), \\(\\left(\\dfrac{1}{b}\\right)^{-n} = b^n\\), and \\(b^0 = 1\\).",
+              "cold": "Evaluate \\(2^{-3}\\), \\(\\left(\\dfrac{1}{3}\\right)^{-2}\\), and \\(5^0\\).",
+              "coldPlain": "Evaluate 2^(-3), (1/3)^(-2), and 5^0.",
+              "coldA": "\\(2^{-3} = \\dfrac{1}{2^3} = \\dfrac{1}{8}\\). \\(\\left(\\dfrac{1}{3}\\right)^{-2} = 3^2 = 9\\). \\(5^0 = 1\\).",
+              "solution": "A negative exponent means \"flip, then use the positive exponent.\" 2^(-3) = 1/2^3 = 1/8. (1/3)^(-2): flip 1/3 to 3, then 3^2 = 9. Any nonzero number to the 0 power is 1.",
+              "mistake": "Thinking 2^(-3) is negative (like -8).",
+              "again": "Evaluate \\(4^{-2}\\) and \\(\\left(\\dfrac{1}{2}\\right)^{-3}\\).",
+              "againA": "\\(\\dfrac{1}{16}\\) and \\(8\\).",
+              "reflect": "Does a negative exponent ever make the answer negative?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "el1-g2",
+              "title": "Differences and ratios in a table",
+              "target": "Compute consecutive differences (subtract) and consecutive ratios (divide) of the \\(y\\)-values in a table.",
+              "cold": "For the \\(y\\)-values \\(3, 6, 12, 24\\), find the differences between consecutive values and the ratios between consecutive values.",
+              "coldPlain": "For the y-values 3, 6, 12, 24, find the differences and the ratios between consecutive values.",
+              "coldA": "Differences: \\(3, 6, 12\\) (not constant). Ratios: \\(\\dfrac{6}{3} = 2\\), \\(\\dfrac{12}{6} = 2\\), \\(\\dfrac{24}{12} = 2\\) (constant).",
+              "solution": "Differences: 6 - 3 = 3, 12 - 6 = 6, 24 - 12 = 12. Ratios: 6/3 = 2, 12/6 = 2, 24/12 = 2. Each ratio is next divided by previous.",
+              "mistake": "Dividing in the wrong order (previous divided by next).",
+              "again": "Do the same for \\(5, 8, 11, 14\\).",
+              "againA": "Differences: \\(3, 3, 3\\) (constant). Ratios: \\(\\dfrac{8}{5}, \\dfrac{11}{8}, \\dfrac{14}{11}\\) (not constant).",
+              "reflect": "A constant difference means linear. What do you think a constant ratio means?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "One stop per question type on the EL1 check, plus base \\(e\\) from the objective.",
+          "stops": [
+            {
+              "id": "el1-t1",
+              "title": "Is the table exponential?",
+              "target": "When \\(x\\) goes up by 1 each row, a table is exponential if every \\(y\\)-value is the previous one times the <strong>same</strong> number (a constant ratio).",
+              "cold": "Which table represents an exponential function? Explain your reasoning.[[graph:TP1]]",
+              "coldPlain": "Which table represents an exponential function? Explain. Table A: (1, 6), (2, 12), (3, 24), (4, 48), (5, 96). Table B: (1, 4), (2, 3), (3, 0), (4, -5), (5, -12).",
+              "coldA": "<strong>Table A.</strong> Each \\(y\\) is double the one before: ratios \\(2, 2, 2, 2\\). Table B has ratios \\(\\dfrac{3}{4}, 0, \\dots\\), which are not constant.[[graph:RA1]]",
+              "solution": "Table A: 12/6 = 2, 24/12 = 2, 48/24 = 2, 96/48 = 2, a constant ratio, so exponential. Table B: 3/4, 0/3 = 0, and then you cannot divide by 0: not constant, so not exponential.",
+              "mistake": "Checking differences (that tests for linear) or deciding just because the values grow fast.",
+              "again": "Which table is exponential?[[graph:TP2]]",
+              "againA": "<strong>Table B.</strong> Each \\(y\\) is \\(\\dfrac{1}{3}\\) of the previous one. Table A also shrinks, but its ratios \\(\\dfrac{2}{3}, \\dfrac{3}{4}, \\dfrac{4}{5}, \\dfrac{5}{6}\\) change, so it is not exponential.[[graph:RA2]]",
+              "reflect": "Why is \"it gets smaller each time\" not enough to call a table exponential?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el1-t2",
+              "title": "Evaluate a·bˣ",
+              "target": "Evaluate \\(f(x) = a \\cdot b^x\\): raise \\(b\\) to the power first, then multiply by \\(a\\). Negative inputs flip the base.",
+              "cold": "Let \\(f(x) = -3 \\cdot 2^x\\). Find \\(f(-2)\\). Let \\(g(x) = 4\\left(\\dfrac{1}{3}\\right)^x\\). Find \\(g(-2)\\).",
+              "coldPlain": "Let f(x) = -3 * 2^x. Find f(-2). Let g(x) = 4(1/3)^x. Find g(-2).",
+              "coldA": "\\(f(-2) = -3 \\cdot \\dfrac{1}{4} = -\\dfrac{3}{4}\\). \\(g(-2) = 4 \\cdot 3^2 = 36\\).",
+              "solution": "Exponent first. 2^(-2) = 1/4, then -3 * 1/4 = -3/4. (1/3)^(-2) = 9, then 4 * 9 = 36.",
+              "mistake": "Multiplying a and b first, like (-3 * 2)^(-2), which ignores order of operations.",
+              "again": "Let \\(h(x) = 2 \\cdot 5^x\\) and \\(p(x) = -\\left(\\dfrac{1}{2}\\right)^x\\). Find \\(h(3)\\) and \\(p(-4)\\).",
+              "againA": "\\(h(3) = 2 \\cdot 125 = 250\\). \\(p(-4) = -(2^4) = -16\\).",
+              "reflect": "Why can you not multiply \\(a\\) and \\(b\\) together first?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "el1-t3",
+              "title": "Evaluate with an expression in the exponent",
+              "target": "For functions like \\(g(x) = 3^{2x - 1}\\), evaluate the exponent expression first, then the power.",
+              "cold": "Let \\(g(x) = 2^{-x + 3}\\). Find \\(g(6)\\).",
+              "coldPlain": "Let g(x) = 2^(-x + 3). Find g(6).",
+              "coldA": "Exponent: \\(-6 + 3 = -3\\). Then \\(2^{-3} = \\dfrac{1}{8}\\).",
+              "solution": "Plug 6 into the exponent: -6 + 3 = -3. Then 2^(-3) = 1/8.",
+              "mistake": "Computing 2^(-6) and then adding 3.",
+              "again": "Let \\(q(x) = 4^{3x + 2}\\). Find \\(q\\left(-\\dfrac{4}{3}\\right)\\).",
+              "againA": "Exponent: \\(3\\left(-\\dfrac{4}{3}\\right) + 2 = -4 + 2 = -2\\). Then \\(4^{-2} = \\dfrac{1}{16}\\).",
+              "reflect": "Why do fraction inputs like \\(-\\dfrac{4}{3}\\) still give nice answers here?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                }
+              ]
+            },
+            {
+              "id": "el1-t4",
+              "title": "Base e",
+              "target": "Know where \\(e \\approx 2.71828\\) comes from (continuous compounding), and evaluate \\(a e^{kx}\\) with the \\(e^x\\) key on a calculator, rounding at the end.",
+              "cold": "Let \\(f(x) = 5e^{0.2x}\\). Find \\(f(3)\\) to four decimal places.",
+              "coldPlain": "Let f(x) = 5e^(0.2x). Find f(3) to four decimal places.",
+              "coldA": "Exponent: \\(0.2(3) = 0.6\\). \\(f(3) = 5e^{0.6} \\approx 5(1.8221) \\approx 9.1106\\).",
+              "solution": "Compute the exponent: 0.2 * 3 = 0.6. Use the e^x key: e^0.6 is about 1.822119. Multiply by 5: about 9.1106. Background: e is the limit of (1 + 1/n)^n as n grows, which is what $1 at 100% interest grows to when compounded continuously.",
+              "mistake": "Typing 2.7 for e (too rough), or computing (5e)^0.6.",
+              "again": "Let \\(g(x) = 100e^{-0.5x}\\). Find \\(g(4)\\) to four decimal places.",
+              "againA": "\\(100e^{-2} \\approx 13.5335\\).",
+              "reflect": "In your own words: where does \\(e\\) come from, and why is it close to 2.72 and not \"infinite\"?",
+              "related": [
+                {
+                  "label": "Where does e come from? (app)",
+                  "url": "https://172eorigins.netlify.app/"
+                },
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ],
+              "explain": "<h4>Where does \\(e\\) come from?</h4><p>Put $1 in a bank that pays 100% interest per year. Paid once, you end the year with $2. Paid as 50% twice a year, you earn interest on your interest and end with $2.25. Chop the year into more and more pieces and the total keeps growing, but it does <em>not</em> grow without limit. It levels off at a special number, \\(e \\approx 2.71828\\).</p><div class=\"table-wrap\"><table class=\"lookup\"><tr><th scope=\"col\">How often interest is paid</th><th scope=\"col\">\\(n\\) times per year</th><th scope=\"col\">$1 grows to \\(\\left(1 + \\tfrac{1}{n}\\right)^n\\)</th></tr><tr><td>Once a year</td><td>1</td><td>2.00</td></tr><tr><td>Twice a year</td><td>2</td><td>2.25</td></tr><tr><td>Monthly</td><td>12</td><td>2.61</td></tr><tr><td>Daily</td><td>365</td><td>2.71</td></tr><tr><td>Every second</td><td>31,536,000</td><td>2.72</td></tr><tr><td>Continuously</td><td>\\(n \\to \\infty\\)</td><td>\\(e \\approx 2.71828\\)</td></tr></table></div><p>So \\(e\\) is the growth factor for 100% growth compounded <em>continuously</em>. That is why it shows up whenever something grows or decays continuously: money, populations, medicine leaving the bloodstream.</p><p><strong>Explore it yourself:</strong> <a href=\"https://172eorigins.netlify.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Where Does e Come From?<span class=\"sr-only\"> (opens in a new tab)</span></a> lets you make a prediction, then test it by compounding more and more often.</p>"
+            },
+            {
+              "id": "el1-t5",
+              "title": "Find the equation from two points",
+              "target": "For \\(y = a \\cdot b^x\\): the point with \\(x = 0\\) gives \\(a\\) (since \\(b^0 = 1\\)). Then use the other point to solve for \\(b\\), taking the positive root.",
+              "cold": "Find an exponential function \\(y = a \\cdot b^x\\) passing through \\((0, 3)\\) and \\((2, 48)\\).",
+              "coldPlain": "Find an exponential function y = a * b^x passing through (0, 3) and (2, 48).",
+              "coldA": "\\((0, 3)\\) gives \\(a = 3\\). Then \\(3b^2 = 48\\), so \\(b^2 = 16\\) and \\(b = 4\\). \\(y = 3 \\cdot 4^x\\).",
+              "solution": "At x = 0, y = a * b^0 = a, so a = 3. Plug in (2, 48): 3b^2 = 48, b^2 = 16, b = 4 (bases are positive). Check: 3 * 4^2 = 48.",
+              "mistake": "Using b = -4 (exponential bases must be positive), or forgetting to divide by a first.",
+              "again": "Find \\(y = a \\cdot b^x\\) through \\((-2, 50)\\) and \\((0, 2)\\).",
+              "againA": "\\(a = 2\\). Then \\(2b^{-2} = 50\\), so \\(b^{-2} = 25\\), meaning \\(\\dfrac{1}{b^2} = 25\\) and \\(b = \\dfrac{1}{5}\\). \\(y = 2\\left(\\dfrac{1}{5}\\right)^x\\).",
+              "stretch": "Find \\(y = a \\cdot b^x\\) through \\((0, -4)\\) and \\(\\left(3, -\\dfrac{1}{2}\\right)\\).",
+              "stretchA": "\\(a = -4\\). \\(-4b^3 = -\\dfrac{1}{2}\\), so \\(b^3 = \\dfrac{1}{8}\\) and \\(b = \\dfrac{1}{2}\\). \\(y = -4\\left(\\dfrac{1}{2}\\right)^x\\).",
+              "reflect": "Why is the point with \\(x = 0\\) the best place to start?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same three-part format as the EL1 CheckIt exercise.",
+          "stops": [
+            {
+              "id": "el1-f1",
+              "title": "Practice check",
+              "target": "Identify an exponential table, evaluate exponential functions, and find an exponential equation from two points.",
+              "cold": "<strong>Part 1.</strong> Which table represents an exponential function? Explain.[[graph:TP3]]<strong>Part 2.</strong> Evaluate (a) \\(f(-3)\\) for \\(f(x) = 2\\left(\\dfrac{1}{4}\\right)^x\\) and (b) \\(g(2)\\) for \\(g(x) = 3^{-2x + 1}\\).<br><br><strong>Part 3.</strong> Find an exponential function passing through \\((0, -3)\\) and \\(\\left(-2, -\\dfrac{3}{16}\\right)\\).",
+              "coldPlain": "Part 1: Which table is exponential? Table A: (1, 5), (2, 8), (3, 11), (4, 14), (5, 17). Table B: (1, -6), (2, -18), (3, -54), (4, -162), (5, -486). Part 2: Evaluate (a) f(-3) for f(x) = 2(1/4)^x, (b) g(2) for g(x) = 3^(-2x + 1). Part 3: Find an exponential function through (0, -3) and (-2, -3/16).",
+              "coldA": "<strong>1.</strong> Table B: constant ratio 3. (Table A has constant <em>differences</em> of 3, so it is linear.)[[graph:RA3]]<strong>2.</strong> (a) \\(2 \\cdot 4^3 = 128\\) (b) exponent \\(-3\\): \\(3^{-3} = \\dfrac{1}{27}\\)<br><strong>3.</strong> \\(a = -3\\); \\(-3b^{-2} = -\\dfrac{3}{16}\\) gives \\(b^2 = 16\\), \\(b = 4\\): \\(y = -3 \\cdot 4^x\\).",
+              "solution": "1: Table B ratios are all 3 (e.g., -18/-6 = 3), so it is exponential; Table A goes up by 3 each time, which is linear. 2(a): (1/4)^(-3) = 64, times 2 is 128. 2(b): -2(2) + 1 = -3, and 3^(-3) = 1/27. 3: a = -3; -3/b^2 = -3/16 means b^2 = 16, b = 4, so y = -3 * 4^x.",
+              "mistake": "Confusing a constant difference (linear) with a constant ratio (exponential), or choosing a negative base.",
+              "again": "<strong>Part 1.</strong> Which table represents an exponential function?[[graph:TP4]]<strong>Part 2.</strong> Evaluate (a) \\(h(-2)\\) for \\(h(x) = -4 \\cdot 5^x\\) and (b) \\(q(-2)\\) for \\(q(x) = 2^{-3x - 2}\\).<br><br><strong>Part 3.</strong> Find an exponential function through \\((3, 40)\\) and \\((0, 5)\\).",
+              "againA": "<strong>1.</strong> Table A: ratio \\(\\dfrac{1}{2}\\) every time. (Table B is quadratic.)[[graph:RA4]]<strong>2.</strong> (a) \\(-\\dfrac{4}{25}\\) (b) exponent \\(4\\): \\(2^4 = 16\\)<br><strong>3.</strong> \\(a = 5\\), \\(b^3 = 8\\), \\(b = 2\\): \\(y = 5 \\cdot 2^x\\).",
+              "reflect": "Which of the three parts do you want more practice with?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
