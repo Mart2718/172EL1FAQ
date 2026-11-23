@@ -154,6 +154,26 @@
         "faq-11",
         "faq-14"
       ]
+    },
+    {
+      "id": "vid-7",
+      "title": "Ex:  Find an Exponential Growth Function Given Two Points - Initial Value Given",
+      "url": "https://youtu.be/8fHNfvt7K_Q",
+      "description": "Finding y = a·bˣ from two points when one point has x = 0, so its output is a. This is the same setup as Part 3 of the EL1 CheckIt exercise.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-8"
+      ]
+    },
+    {
+      "id": "vid-8",
+      "title": "Ex:  Find an Exponential Decay Function Given Two Points - Initial Value Given",
+      "url": "https://youtu.be/PEFKE_k9pDk",
+      "description": "The same two-point method for a decay function, where the base b comes out between 0 and 1.",
+      "category": "evaluating-modeling",
+      "relatedFaqs": [
+        "faq-8"
+      ]
     }
   ],
   "apps": [
