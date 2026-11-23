@@ -154,17 +154,6 @@
         "faq-11",
         "faq-14"
       ]
-    },
-    {
-      "id": "vid-7",
-      "title": "Exponential Model: Determine Age Using Carbon-14 and Half-Life",
-      "url": "https://www.youtube.com/watch?v=HYHzK6kF0ts",
-      "description": "A classic exponential decay application — using a half-life model to estimate age (beyond the EL1 CheckIt exercise).",
-      "category": "evaluating-modeling",
-      "relatedFaqs": [
-        "faq-3",
-        "faq-14"
-      ]
     }
   ],
   "apps": [
@@ -320,6 +309,8 @@
               "mistake": "Multiplying a and b first, like (-3 * 2)^(-2), which ignores order of operations.",
               "again": "Let \\(h(x) = 2 \\cdot 5^x\\) and \\(p(x) = -\\left(\\dfrac{1}{2}\\right)^x\\). Find \\(h(3)\\) and \\(p(-4)\\).",
               "againA": "\\(h(3) = 2 \\cdot 125 = 250\\). \\(p(-4) = -(2^4) = -16\\).",
+              "stretch": "Let \\(f(x) = -3^x\\), written the way CheckIt prints it. Find \\(f(-2)\\).",
+              "stretchA": "The exponent belongs to the 3 only: \\(f(-2) = -\\left(3^{-2}\\right) = -\\dfrac{1}{9}\\). It is not \\((-3)^{-2} = \\dfrac{1}{9}\\).",
               "reflect": "Why can you not multiply \\(a\\) and \\(b\\) together first?",
               "related": [
                 {
@@ -362,7 +353,7 @@
             {
               "id": "el1-t4",
               "title": "Base e (beyond the EL1 CheckIt exercise)",
-              "target": "Know where \\(e\\) (about 2.71828) comes from (continuous compounding), and evaluate \\(a e^{kx}\\) with the \\(e^x\\) key on a calculator, rounding at the end.",
+              "target": "Know where \\(e\\) (about 2.71828) comes from (continuous compounding), and evaluate \\(a e^{kx}\\) with the \\(e^x\\) key on a calculator, rounding to four decimal places only at the last step.",
               "cold": "Let \\(f(x) = 5e^{0.2x}\\). Find \\(f(3)\\) to four decimal places.",
               "coldPlain": "Let f(x) = 5e^(0.2x). Find f(3) to four decimal places.",
               "coldA": "Exponent: \\(0.2(3) = 0.6\\). \\(f(3) = 5e^{0.6} \\approx 5(1.822119) \\approx 9.1106\\). (Keep all the calculator digits until the last step; rounding \\(e^{0.6}\\) to 1.8221 first would give 9.1105.)",
@@ -437,6 +428,8 @@
               "mistake": "Confusing a constant difference (linear) with a constant ratio (exponential), or choosing a negative base.",
               "again": "<strong>Part 1.</strong> Which table represents an exponential function?[[graph:TP4]]<strong>Part 2.</strong> Evaluate (a) \\(h(-2)\\) for \\(h(x) = -4 \\cdot 5^x\\) and (b) \\(q(-2)\\) for \\(q(x) = 2^{-3x - 2}\\).<br><br><strong>Part 3.</strong> Find an exponential function through \\((3, 32)\\) and \\((0, 4)\\).",
               "againA": "<strong>1.</strong> Table A: ratio \\(\\dfrac{1}{2}\\) every time. (Table B is quadratic.)[[graph:RA4]]<strong>2.</strong> (a) \\(-\\dfrac{4}{25}\\) (b) exponent \\(4\\): \\(2^4 = 16\\)<br><strong>3.</strong> \\(a = 4\\), \\(4b^3 = 32\\) so \\(b^3 = 8\\), \\(b = 2\\): \\(y = 4 \\cdot 2^x\\).",
+              "stretch": "Find \\(y = a \\cdot b^x\\) through \\(\\left(5, \\dfrac{2}{243}\\right)\\) and \\((0, 2)\\).",
+              "stretchA": "\\(a = 2\\). Then \\(2b^5 = \\dfrac{2}{243}\\), so \\(b^5 = \\dfrac{1}{243}\\) and \\(b = \\dfrac{1}{3}\\) (since \\(3^5 = 243\\)): \\(y = 2\\left(\\dfrac{1}{3}\\right)^x\\).",
               "reflect": "Which of the three parts do you want more practice with?",
               "related": [
                 {
